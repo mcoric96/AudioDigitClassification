@@ -28,6 +28,9 @@ The solution involves:
 - Implements a neural network architecture tailored for audio classification.
 - Defines layers, activation functions, and output for digit prediction.
 
+<img width="921" height="312" alt="audio_digit_model" src="https://github.com/user-attachments/assets/96ca7de6-d62f-4914-a96a-b61b6823096c" />
+
+
 ### 3. Training and Evaluation (`digit_classifier.py`)
 - Trains the model using the processed dataset.
 - Evaluates accuracy and performance on test data.
