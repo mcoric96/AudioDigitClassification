@@ -1,0 +1,21 @@
+{
+    "data": {
+        "val_ratio": 0.2
+    },
+    "model": {
+        "pooling_mode": "mean",
+        "d_model": 128,
+        "nhead": 4,
+        "num_encoder_layers": 1,
+        "dim_feedforward": 64,
+        "dropout": 0.1
+    },
+    "training": {
+        "max_epochs": 100,
+        "batch_size": 32,
+        "learning_rate": 0.001,
+        "num_workers": 8,
+        "early_stopoing_patience": 10,
+        "trainer_accelerator": "auto"
+    }
+}
